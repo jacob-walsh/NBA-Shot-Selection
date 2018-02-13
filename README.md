@@ -6,7 +6,7 @@ The shot log data set was gathered from https://www.kaggle.com/erikbabb/d/dansbe
 Players data set was built from https://www.basketball-reference.com/leagues/NBA_2015_per_game.html and used to add additional variables
 such as position played, age of player, games played, and minutes per game of player.
 
-## Read in and Clean up
+## Read in, Merge, and Clean up
 ```
 shots<-read.csv("shot_logs.csv", head=TRUE)
 library(stringr)
