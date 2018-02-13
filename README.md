@@ -42,3 +42,4 @@ shots2$GAME_CLOCK<-sapply(strsplit(shots2$GAME_CLOCK,":"),
 
 write.csv(shots2,file="shot_logs2.csv")
 ```
+![Alt Text](https://github.com/jacob-walsh/NBA-Shot-Selection/blob/master/EDA/plot1.png)
