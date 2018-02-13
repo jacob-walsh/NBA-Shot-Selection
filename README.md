@@ -1,11 +1,8 @@
 # NBA-Shot-Selection
 It might seem like a foregone conclusion that if a defender is nowhere near the offensive
-player, then the offensive player has a better chance of making the shot. We wanted to see if
-the data backs this up and what else we could find out. The data we have includes a great deal
-of shots, in fact, all shots taken from the 2014-2015 regular NBA season, 121,691 shots in total.
-Our primary question of interest was to discover what factors have a large effect on whether or
-not a shot will be made.
-Shot logs data set was gathered from https://www.kaggle.com/erikbabb/d/dansbecker/nba-shot-logs/itm-6285-shot-prediction
+player, then the offensive player has a better chance of making the shot. This report attempts to assess the likelihood of a player making a shot, given the position of the player, distance to basket, distance to defender, and other metrics.  The data includes all shots taken from the 2014-2015 regular NBA season, 121,691 shots in total.
+
+The shot log data set was gathered from https://www.kaggle.com/erikbabb/d/dansbecker/nba-shot-logs/itm-6285-shot-prediction
 Players data set was built from https://www.basketball-reference.com/leagues/NBA_2015_per_game.html and used to add additional variables
 such as position played, age of player, games played, and minutes per game of player.
 
